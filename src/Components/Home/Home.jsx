@@ -1,12 +1,14 @@
-import AbsouluteCard from "../../reUseable/AbsouluteCard";
 import Banner from "../Banner/Banner";
+import CommunitySection from "../CommunitySection/CommunitySection";
 
 
 const Home = () => {
     return (
         <div>
             <Banner />
-            <AbsouluteCard />
+            <main>
+                <CommunitySection />
+            </main>
         </div>
     );
 };

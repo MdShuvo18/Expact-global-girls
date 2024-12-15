@@ -7,3 +7,12 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
+
+body{
+    background-color: #f6f6f6;
+}
+
+main{
+    max-width: 83%;
+    margin: 0 auto;
+}
