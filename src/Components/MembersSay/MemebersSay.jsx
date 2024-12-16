@@ -22,7 +22,7 @@ const MemebersSay = () => {
 
       {/* Content Section */}
       <div className="mt-10">
-        <div className="flex justify-between gap-10 lg:gap-16 bg-white rounded-2xl overflow-hidden shadow-lg">
+        <div className="flex flex-col lg:flex-row justify-between gap-10 lg:gap-16 bg-white rounded-2xl overflow-hidden shadow-lg">
           {/* Image Section */}
           <div className="">
             <img
@@ -43,13 +43,13 @@ const MemebersSay = () => {
               </button>
             </div>
             <div className="p-6 md:p-8 lg:p-10 relative">
-              <div className="absolute top-0">
+              <div className="absolute lg:top-0">
                 <img className="" src={comma1} alt="" />
               </div>
-              <p className="text-[#344054] text-lg md:text-xl lg:text-2xl font-medium leading-loose">
+              <p className="text-[#344054] text-lg md:text-xl lg:text-2xl font-medium leading-loose py-10 lg:py-0">
                 Our smart developers build innovative, efficient, and high-performance solutions. Efficient, and high-performance solutions. Efficient, and high-performance solutions.
               </p>
-              <div className="absolute right-10">
+              <div className="absolute bottom-2 lg:bottom-0 right-10">
                 <img src={comma2} alt="" />
               </div>
             </div>

@@ -19,29 +19,35 @@ const WhyChoose = () => {
             {/* Headers component */}
             <Headers title="Why Choose Expat Global Girls" subTitle="Empowering women to travel with confidence and ease worldwide" />
 
-            <div className="flex flex-col lg:flex-row justify-between items-center mt-10">
+            <div className="flex flex-col lg:flex-row justify-between items-center mt-10 gap-2 md:gap-10 lg:gap-0">
                 {/* left side */}
-                <div className=" lg:space-y-16">
-                    <div className="py-8 pr-24 pl-12 lg:space-y-5" style={{
-                        backgroundImage:`url(${rectangle1})`,
-                        backgroundRepeat:"no-repeat",
-                        backgroundSize:"contain",
-                        backgroundPosition:"center"
+                <div className="md:space-y-10 lg:space-y-16">
+                    <div className="p-10 md:p-20 lg:p-20 lg:space-y-2" style={{
+                        backgroundImage: `url(${rectangle1})`,
+                        backgroundRepeat: "no-repeat",
+                        backgroundSize: "contain",
+                        backgroundPosition: "center",
 
                     }}>
+
+                        <div className="flex lg:flex-col items-center lg:items-start gap-2">
                         <img src={imgOne} alt="" />
-                        <h1 className="text-2xl font-semibold text-[#1D2939]">Affordable Housing</h1>
-                        <p className="lg:text-lg font-light text-[#475467] leading-relaxed">Save money and travel smarter by <br className="hidden lg:block"/> sharing accommodations with fellow members.</p>
+                        <h1 className="md:text-2xl lg:text-2xl font-semibold text-[#1D2939]">Affordable Housing</h1>
+                        </div>
+                        <p className="text-sm md:text-lg lg:text-lg font-light text-[#475467] leading-relaxed">Save money and travel smarter by <br className="hidden lg:block" /> sharing accommodations with fellow members.</p>
+
                     </div>
-                    <div className="py-8 pr-24 pl-12 lg:space-y-5" style={{
-                        backgroundImage:`url(${rectangle2})`,
-                        backgroundRepeat:"no-repeat",
-                        backgroundSize:"contain",
-                        backgroundPosition:"center"
+                    <div className="p-10 md:p-20 lg:p-20 space-y-2 lg:space-y-2" style={{
+                        backgroundImage: `url(${rectangle2})`,
+                        backgroundRepeat: "no-repeat",
+                        backgroundSize: "contain",
+                        backgroundPosition: "center",
                     }} >
+                        <div className="flex lg:flex-col items-center lg:items-start gap-2">
                         <img src={imgOne} alt="" />
-                        <h1 className="text-2xl font-semibold text-[#1D2939]">Affordable Housing</h1>
-                        <p className="lg:text-lg font-light text-[#475467] leading-relaxed">Save money and travel smarter by <br className="hidden lg:block"/> sharing accommodations with fellow members.</p>
+                        <h1 className="md:text-2xl lg:text-2xl font-semibold text-[#1D2939]">Affordable Housing</h1>
+                        </div>
+                        <p className="text-sm md:text-lg font-light text-[#475467] leading-relaxed">Save money and travel smarter by <br className="hidden lg:block" /> sharing accommodations with fellow members.</p>
                     </div>
                 </div>
                 {/* middle */}
@@ -49,26 +55,30 @@ const WhyChoose = () => {
                     <img className="h-[250px] w-[250px]" src={logoImg} alt="" />
                 </div>
                 {/* Right side */}
-                <div className="lg:space-y-16">
-                    <div className="py-8 pr-24 pl-12 lg:space-y-5" style={{
-                        backgroundImage:`url(${rectangle})`,
-                        backgroundRepeat:"no-repeat",
-                        backgroundSize:"contain",
-                        backgroundPosition:"center",
+                <div className="md:space-y-10 lg:space-y-16">
+                    <div className="p-10 md:p-20 lg:p-20 space-y-2 lg:space-y-2" style={{
+                        backgroundImage: `url(${rectangle})`,
+                        backgroundRepeat: "no-repeat",
+                        backgroundSize: "contain",
+                        backgroundPosition: "center",
                     }}>
+                        <div className="flex lg:flex-col items-center lg:items-start gap-2">
                         <img src={imgOne} alt="" />
-                        <h1 className="lg:text-2xl font-semibold text-[#1D2939]">Affordable Housing</h1>
-                        <p className="lg:text-lg font-light text-[#475467] leading-relaxed">Save money and travel smarter by <br className="hidden lg:block"/> sharing accommodations with fellow members.</p>
+                        <h1 className="md:text-2xl lg:text-2xl font-semibold text-[#1D2939]">Affordable Housing</h1>
+                        </div>
+                        <p className="text-sm md:text-lg font-light text-[#475467] leading-relaxed">Save money and travel smarter by <br className="hidden lg:block" /> sharing accommodations with fellow members.</p>
                     </div>
-                    <div className="py-8 pr-24 pl-12 lg:space-y-5" style={{
-                        backgroundImage:`url(${rectangle3})`,
-                        backgroundRepeat:"no-repeat",
-                        backgroundSize:"contain",
-                        backgroundPosition:"center"
+                    <div className="p-10 md:p-20 lg:p-20 space-y-1 lg:space-y-2" style={{
+                       backgroundImage: `url(${rectangle3})`,
+                       backgroundRepeat: "no-repeat",
+                       backgroundSize: "contain",
+                       backgroundPosition: "center",
                     }}>
+                        <div className="flex lg:flex-col items-center lg:items-start gap-2">
                         <img src={imgOne} alt="" />
-                        <h1 className="text-2xl font-semibold text-[#1D2939]">Affordable Housing</h1>
-                        <p className="lg:text-lg font-light text-[#475467] leading-relaxed">Save money and travel smarter by <br className="hidden lg:block"/> sharing accommodations with fellow members.</p>
+                        <h1 className="md:text-2xl lg:text-2xl font-semibold text-[#1D2939]">Affordable Housing</h1>
+                        </div>
+                        <p className="text-sm md:text-lg font-light text-[#475467] leading-relaxed">Save money and travel smarter by <br className="hidden lg:block" /> sharing accommodations with fellow members.</p>
                     </div>
                 </div>
 
