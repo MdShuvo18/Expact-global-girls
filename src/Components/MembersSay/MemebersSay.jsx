@@ -1,9 +1,12 @@
 import Headers from "../../reUseable/Headers";
 import img from "../../assets/image-resources/Group 1321314436.png";
+import comma1 from "../../assets/image-resources/comma.png";
+import comma2 from "../../assets/image-resources/comma (1).png";
+import { FaArrowRight, FaArrowLeft } from "react-icons/fa6";
 
 const MemebersSay = () => {
   return (
-    <div className="mt-16 md:mt-24 px-4 md:px-8 lg:px-16">
+    <div className="mt-16 md:mt-24">
       {/* Testimonial Label */}
       <div className="-rotate-12 mb-5 flex items-center justify-center">
         <p className="text-center bg-[#0872BA4D] rounded-lg text-sm font-light px-4 py-2">
@@ -19,23 +22,37 @@ const MemebersSay = () => {
 
       {/* Content Section */}
       <div className="mt-10">
-        <div className="flex flex-col-reverse lg:flex-row-reverse gap-10 lg:gap-16 bg-white rounded-2xl overflow-hidden shadow-lg">
-          {/* Text Section */}
-          <div className="w-full h-auto flex items-center lg:w-1/2">
-            <div className="p-6 md:p-8 lg:p-10">
-              <p className="text-[#344054] text-lg md:text-xl lg:text-2xl font-medium leading-relaxed">
-                Our smart developers build innovative, efficient, and high-performance solutions. Efficient, and high-performance solutions. Efficient, and high-performance solutions.
-              </p>
-            </div>
-          </div>
-
+        <div className="flex justify-between gap-10 lg:gap-16 bg-white rounded-2xl overflow-hidden shadow-lg">
           {/* Image Section */}
-          <div className="w-full h-full md:h-80 lg:h-[386px] flex items-center justify-center lg:w-1/2">
+          <div className="">
             <img
-              className="w-full h-[386px] rounded-md"
+              className="w-[550px] h-[380px] rounded-md"
               src={img}
               alt="glasses"
             />
+          </div>
+          {/* Text Section */}
+          <div className="w-full h-auto flex items-center lg:w-1/2 relative">
+
+            <div className="absolute top-7 right-6 space-x-3">
+              <button className="border-2 px-4 rounded-xl">
+                <FaArrowLeft className="text-primary" />
+              </button>
+              <button className="border-2 px-4 rounded-xl">
+                <FaArrowRight className="text-primary" />
+              </button>
+            </div>
+            <div className="p-6 md:p-8 lg:p-10 relative">
+              <div className="absolute top-0">
+                <img className="" src={comma1} alt="" />
+              </div>
+              <p className="text-[#344054] text-lg md:text-xl lg:text-2xl font-medium leading-loose">
+                Our smart developers build innovative, efficient, and high-performance solutions. Efficient, and high-performance solutions. Efficient, and high-performance solutions.
+              </p>
+              <div className="absolute right-10">
+                <img src={comma2} alt="" />
+              </div>
+            </div>
           </div>
         </div>
       </div>

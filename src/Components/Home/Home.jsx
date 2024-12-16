@@ -4,6 +4,7 @@ import FAQsection from "../FAQsection/FAQsection";
 import Footer from "../Footer/Footer";
 import MemebersSay from "../MembersSay/MemebersSay";
 import TravelerSection from "../TravelerSection/TravelerSection";
+import WhyChoose from "../WhyChoose/WhyChoose";
 import WorkSection from "../WorksSection/WorkSection";
 
 
@@ -13,13 +14,15 @@ const Home = () => {
             <Banner />
             <main>
                 <CommunitySection />
-                <TravelerSection/>
-                <WorkSection/>
-                <MemebersSay/>
-                <FAQsection/>
-                
+                <TravelerSection />
+                <WhyChoose />
             </main>
-            <Footer/>
+            <WorkSection />
+            <main>
+                <MemebersSay />
+                <FAQsection />
+            </main>
+            <Footer />
         </div>
     );
 };

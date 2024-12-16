@@ -1,15 +1,15 @@
 import { FaLongArrowAltRight } from "react-icons/fa";
-import img from "../../assets/image-resources/Frame 172.png"
+import img from '../../assets/image-resources/company_logo.png'
 
 const CommunitySection = () => {
     return (
-        <div className="flex flex-col lg:flex-row gap-8 justify-center sm:mt-12  md:mt-24 lg:mt-64">
+        <div className="flex flex-col lg:flex-row gap-8 items-center justify-center mt-10  md:mt-24 lg:mt-28">
             {/* left side */}
-            <div className="">
-                <img src={img} alt="" />
+            <div className="flex-1 bg-white rounded-2xl">
+                <img className="px-20" src={img} alt="" />
             </div>
             {/* right side */}
-            <div className=" p-5 flex flex-col flex-grow  space-y-6 lg:w-2/4 content-stretch">
+            <div className="flex-1 p-5 flex flex-col flex-grow  space-y-6 lg:w-2/4 content-stretch">
                 <hr className="w-[57px] h-[8px] rounded-2xl bg-primary border-2" />
                 <h1 className="text-5xl font-semibold text-[#1D2939] mb-4 leading-tight">
                     Your Community for Women Ready to Go Abroad
