@@ -1,4 +1,4 @@
-/* eslint-disable no-undef */
+import daisyui from 'daisyui';
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -9,13 +9,11 @@ export default {
     extend: {
       colors: {
         primary: '#0872BA',
-      
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
       },
     },
   },
-  plugins: [require('daisyui')],
+  plugins: [daisyui],
 }
-
