@@ -7,7 +7,7 @@ import facebook from "../../assets/image-resources/facebook 1.svg"
 const Footer = () => {
     return (
         <footer className="mt-24 bg-white">
-            <div className="flex justify-between mx-36 gap-16">
+            <div className="flex justify-between mx-32 gap-16">
                 <div className="flex w-1/3 flex-col">
                     <img className="w-[130px] h-[105px]" src={img} alt="" />
                     <h1 className="">Scan a Turning Hearts Medallion to learn about and interact with those who have passed on. You can also begin documenting the legacy you wish to leave behind.</h1>
@@ -22,20 +22,20 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="flex items-center gap-36">
-                <div className="">
-                    <h1 className="text-lg font-bold text-[#1D2939]">Quick Link</h1>
-                    <ul>
-                        <li>Home</li>
-                        <li>FAQ</li>
-                        <li>Country search</li>
-                        <li>Register</li>
-                    </ul>
+                    <div className="">
+                        <h1 className="text-lg font-bold text-[#1D2939]">Quick Link</h1>
+                        <ul>
+                            <li>Home</li>
+                            <li>FAQ</li>
+                            <li>Country search</li>
+                            <li>Register</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h1>(316) 555-0116</h1>
+                        <p>deanna.curtis@example.com</p>
+                    </div>
                 </div>
-                <div>
-                    <h1>(316) 555-0116</h1>
-                    <p>deanna.curtis@example.com</p>
-                </div>
-            </div>
             </div>
 
             <div className="mt-10 border-t border-gray-700 pt-6 text-end">

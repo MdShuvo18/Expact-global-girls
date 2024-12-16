@@ -7,7 +7,7 @@ const Banner = () => {
     return (
         <div>
             <div
-                className="pt-6 relative min-h-screen"
+                className="pt-6 relative min-h-screen w-full bg-cover bg-center"
                 style={{
                     backgroundImage: `linear-gradient(268.85deg, rgba(0, 0, 0, 0) 40.91%, rgba(8, 114, 186, 0.5) 99.15%), url(${bannerPhoto})`,
                     backgroundSize: "cover",

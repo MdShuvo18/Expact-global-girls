@@ -3,7 +3,7 @@ import img from "../../assets/image-resources/Frame 172.png"
 
 const CommunitySection = () => {
     return (
-        <div className="flex flex-col lg:flex-row gap-8 justify-center lg:h-screen  sm:mt-12  md:mt-24 lg:mt-64">
+        <div className="flex flex-col lg:flex-row gap-8 justify-center sm:mt-12  md:mt-24 lg:mt-64">
             {/* left side */}
             <div className="">
                 <img src={img} alt="" />
