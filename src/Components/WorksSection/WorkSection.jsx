@@ -9,7 +9,7 @@ const WorkSection = () => {
     return (
         <div className="mt-24">
             <Headers title="How It Works" subTitle="Search and find other travelers heading to the same destination." />
-            <div className="grid grid-cols-3 justify-items-center mt-16">
+            <div className="grid grid-cols-1 lg:grid-cols-3 justify-items-center mt-16">
                 {/* left side */}
                 <div>
                     <div>
@@ -28,7 +28,7 @@ const WorkSection = () => {
                     </div>
                 </div>
                 {/* middle */}
-                <div> <img src={img3} alt="" /></div>
+                <div className="hidden lg:block"> <img src={img3} alt="" /></div>
                 {/* right side */}
                 <div>
                     <div>

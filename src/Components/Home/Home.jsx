@@ -1,6 +1,7 @@
 import Banner from "../Banner/Banner";
 import CommunitySection from "../CommunitySection/CommunitySection";
 import FAQsection from "../FAQsection/FAQsection";
+import Footer from "../Footer/Footer";
 import TravelerSection from "../TravelerSection/TravelerSection";
 import WorkSection from "../WorksSection/WorkSection";
 
@@ -14,7 +15,9 @@ const Home = () => {
                 <TravelerSection/>
                 <WorkSection/>
                 <FAQsection/>
+                
             </main>
+            <Footer/>
         </div>
     );
 };
