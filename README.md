@@ -45,7 +45,7 @@ Ensure you have the following installed:
 ### **Clone the Repository**
 
 ```bash
-git clone [https://github.com/your-username/expact-global-girls.git](https://github.com/MdShuvo18/Expact-global-girls)
+git clone https://github.com/MdShuvo18/Expact-global-girls
 ```
 
 ### **Navigate to the Project Directory**
