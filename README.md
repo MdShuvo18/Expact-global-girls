@@ -45,7 +45,7 @@ Ensure you have the following installed:
 ### **Clone the Repository**
 
 ```bash
-git clone https://github.com/your-username/expact-global-girls.git
+git clone https://github.com/MdShuvo18/Expact-global-girls
 ```
 
 ### **Navigate to the Project Directory**
@@ -74,13 +74,4 @@ http://localhost:5173
 
 ---
 
-## 📝 **Build for Production**
-
-To create a production build of the project, run:
-
-```bash
-npm run build
-```
-
----
 
