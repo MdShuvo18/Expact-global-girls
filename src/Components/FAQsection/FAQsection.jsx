@@ -20,35 +20,35 @@ const FAQsection = () => {
                     <input type="radio" name="my-accordion-3" defaultChecked />
                     <div className="collapse-title text-xl font-medium"> What cars do you have in your inventory?</div>
                     <div className="collapse-content">
-                        <p>Lorem ipsum dolor sit amet consectetur. Integer facilisi sit tortor lobortis amet. Risus vestibulum nec fringilla sed in tincidunt tempus porta. Vulputate ornare vitae turpis mauris. </p>
+                        <p>We offer a selection of reliable, affordable, and versatile cars to support your international journey with ease.</p>
                     </div>
                 </div>
                 <div className="collapse collapse-plus bg-white">
                     <input type="radio" name="my-accordion-3"  />
                     <div className="collapse-title text-xl font-medium"> What cars do you have in your inventory?</div>
                     <div className="collapse-content">
-                        <p>Lorem ipsum dolor sit amet consectetur. Integer facilisi sit tortor lobortis amet. Risus vestibulum nec fringilla sed in tincidunt tempus porta. Vulputate ornare vitae turpis mauris. </p>
+                        <p>We offer a selection of reliable, affordable, and versatile cars to support your international journey with ease.</p>
                     </div>
                 </div>
                 <div className="collapse collapse-plus bg-white">
                     <input type="radio" name="my-accordion-3"  />
                     <div className="collapse-title text-xl font-medium"> What cars do you have in your inventory?</div>
                     <div className="collapse-content">
-                        <p>Lorem ipsum dolor sit amet consectetur. Integer facilisi sit tortor lobortis amet. Risus vestibulum nec fringilla sed in tincidunt tempus porta. Vulputate ornare vitae turpis mauris. </p>
+                        <p>We offer a selection of reliable, affordable, and versatile cars to support your international journey with ease.</p>
                     </div>
                 </div>
                 <div className="collapse collapse-plus bg-white">
                     <input type="radio" name="my-accordion-3"  />
                     <div className="collapse-title text-xl font-medium"> What cars do you have in your inventory?</div>
                     <div className="collapse-content">
-                        <p>Lorem ipsum dolor sit amet consectetur. Integer facilisi sit tortor lobortis amet. Risus vestibulum nec fringilla sed in tincidunt tempus porta. Vulputate ornare vitae turpis mauris. </p>
+                        <p>We offer a selection of reliable, affordable, and versatile cars to support your international journey with ease.</p>
                     </div>
                 </div>
                 <div className="collapse collapse-plus bg-white">
                     <input type="radio" name="my-accordion-3"  />
                     <div className="collapse-title text-xl font-medium"> What cars do you have in your inventory?</div>
                     <div className="collapse-content">
-                        <p>Lorem ipsum dolor sit amet consectetur. Integer facilisi sit tortor lobortis amet. Risus vestibulum nec fringilla sed in tincidunt tempus porta. Vulputate ornare vitae turpis mauris. </p>
+                        <p>We offer a selection of reliable, affordable, and versatile cars to support your international journey with ease.</p>
                     </div>
                 </div>
 
