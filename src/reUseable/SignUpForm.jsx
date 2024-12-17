@@ -2,7 +2,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 
 const SignUpForm = () => {
     return (
-        <div className=" dark:bg-gray-900 w-full flex justify-center items-center">
+        <div className="w-full flex justify-center items-center">
             <div
                 className="w-full p-6 mx-auto rounded-xl"
                 style={{
