@@ -1,5 +1,5 @@
 import Headers from "../../reUseable/Headers";
-import imgOne from "../../assets/image-resources/Frame.svg"
+import imgOne from "../../assets/image-resources/Frame 37.png"
 import imgTwo from "../../assets/image-resources/Frame 37.png"
 import imgThree from "../../assets/image-resources/Frame 37 (1).png"
 import imgFour from "../../assets/image-resources/Frame 37 (2).png"
@@ -35,7 +35,7 @@ const WhyChoose = () => {
                     }}>
 
                         <div className="flex lg:flex-col items-center lg:items-start gap-2">
-                            <img src={imgOne} alt="" />
+                            <img  src={imgOne} alt="" />
                             <h1 className="md:text-2xl lg:text-2xl font-semibold text-[#1D2939]">Affordable Housing</h1>
                         </div>
                         <p className="text-sm md:text-lg lg:text-lg font-light text-[#475467] leading-relaxed">Save money and travel smarter by <br className="hidden lg:block" /> sharing accommodations with fellow members.</p>
