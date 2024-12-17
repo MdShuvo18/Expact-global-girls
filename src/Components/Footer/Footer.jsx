@@ -39,7 +39,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="mt-10 border-t-2 border-gray-300 pt-6 text-end">
+                <div className="mt-10 border-t-2 border-gray-300 pt-6 p-3 lg:p-5 text-end">
                     <p>&copy; {new Date().getFullYear()} Ash and Fire. All Rights Reserved.</p>
                 </div>
             </main>
@@ -49,9 +49,3 @@ const Footer = () => {
 
 
 export default Footer;
-
-/* 
-<div className="mt-10 border-t border-gray-700 pt-6 text-end">
-                    <p>&copy; {new Date().getFullYear()} Your Company. All rights reserved.</p>
-                </div> 
-*/
