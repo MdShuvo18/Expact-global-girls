@@ -4,7 +4,7 @@ const SignUpForm = () => {
     return (
         <div className=" dark:bg-gray-900 w-full flex justify-center items-center">
             <div
-                className="w-full p-6 mx-auto rounded-lg"
+                className="w-full p-6 mx-auto rounded-xl"
                 style={{
                     backgroundColor: 'rgba(56, 56, 56, 0.2)',
                     backdropFilter: 'blur(10px)',
