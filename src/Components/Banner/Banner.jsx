@@ -19,7 +19,7 @@ const Banner = () => {
                     <Nav />
                     <div className="flex flex-col p-4 lg:px-0 lg:flex-row justify-between lg:pt-24 gap-24 lg:pb-32 ">
                         <div className="lg:mt-10 space-y-7">
-                            <h1 className="text-4xl lg:text-5xl font-bold text-white leading-tight">The Premier <br />
+                            <h1 className="text-4xl lg:text-6xl font-bold text-white">The Premier <br />
                                 Co-living Travel <br /> Network for Women</h1>
                             <div className="flex gap-5">
                             <hr className="px-5 mt-3 rounded-2xl border-[#D9D9D9] border-2" />
