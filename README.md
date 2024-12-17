@@ -74,13 +74,4 @@ http://localhost:5173
 
 ---
 
-## 📝 **Build for Production**
-
-To create a production build of the project, run:
-
-```bash
-npm run build
-```
-
----
 
