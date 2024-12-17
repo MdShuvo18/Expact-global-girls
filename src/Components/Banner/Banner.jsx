@@ -21,8 +21,11 @@ const Banner = () => {
                         <div className="mt-10 space-y-7">
                             <h1 className="text-5xl font-bold text-white leading-tight">The Premier <br />
                                 Co-living Travel <br /> Network for Women</h1>
-                            <p className="text-lg font-bold text-white">Find your perfect housemate, <br />
+                            <div className="flex gap-5">
+                            <hr className="px-5 mt-3 rounded-2xl border-[#D9D9D9] border-2" />
+                            <p className="text-lg font-semibold text-white">Find your perfect housemate, <br />
                                 move faster, stay longer, and travel with confidence.</p>
+                            </div>
                         </div>
                         <div>
                             <SignUpForm />
