@@ -1,8 +1,86 @@
-# React + Vite
+# **Expact Global Girls**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web application designed to empower and connect girls globally through various resources, articles, and interactive features. Built with React and styled with Tailwind CSS and DaisyUI for a seamless and modern user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📜 **Project Overview**
+
+**Expact Global Girls** is a React-based web platform focused on creating a global community for girls. The project provides resources, tools, and information tailored to support girls worldwide. The user-friendly interface ensures accessibility and engagement, offering features such as:
+
+- Informative articles and resources.
+- Interactive tools for community engagement.
+- A responsive design for a seamless experience across devices.
+
+---
+
+## 🛠️ **Tools & Technologies Used**
+
+- **React**: JavaScript library for building user interfaces.
+- **Vite**: Fast build tool and development server for modern frontend projects.
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
+- **DaisyUI**: Component library built on top of Tailwind CSS for customizable UI components.
+
+---
+
+## 🚀 **Deployment Link**
+
+You can view the live version of the project here:
+
+🔗 [**Live Demo**](https://expact-global-girls-p7jv.vercel.app/)
+
+---
+
+## 💻 **Getting Started**
+
+Follow these instructions to clone the project and run it locally on your machine.
+
+### **Prerequisites**
+
+Ensure you have the following installed:
+
+1. **Node.js** (v14 or above): [Download Node.js](https://nodejs.org/)
+2. **Git**: [Download Git](https://git-scm.com/)
+
+### **Clone the Repository**
+
+```bash
+git clone https://github.com/your-username/expact-global-girls.git
+```
+
+### **Navigate to the Project Directory**
+
+```bash
+cd expact-global-girls
+```
+
+### **Install Dependencies**
+
+```bash
+npm install
+```
+
+### **Run the Development Server**
+
+```bash
+npm run dev
+```
+
+The application will be available at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📝 **Build for Production**
+
+To create a production build of the project, run:
+
+```bash
+npm run build
+```
+
+---
+
