@@ -28,7 +28,7 @@ const SignUpForm = () => {
                                 name="name"
                                 id="name"
                                 placeholder="Enter your first name"
-                                className="block pr-20 w-full font-light px-4 py-2 text-gray-700 placeholder-white bg-white/30 backdrop-blur-md border border-gray-200 rounded-lg dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                                className="block pr-20 w-full font-light px-4 py-2 text-gray-700 placeholder-white bg-white/30 backdrop-blur-md border border-gray-200 rounded-lg  dark:text-gray-300 focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                             />
                         </div>
                         <div className="mt-4 w-full">
@@ -43,7 +43,7 @@ const SignUpForm = () => {
                                 name="name"
                                 id="name"
                                 placeholder="Enter your last name"
-                                className="block pr-20 font-light w-full px-4 py-2 text-gray-700 placeholder-white bg-white/30 backdrop-blur-md border border-gray-200 rounded-lg dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                                className="block pr-20 font-light w-full px-4 py-2 text-gray-700 placeholder-white bg-white/30 backdrop-blur-md border border-gray-200 rounded-lg  dark:text-gray-300 focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                             />
                         </div>
                     </div>
@@ -61,7 +61,7 @@ const SignUpForm = () => {
                             name="email"
                             id="email"
                             placeholder="Enter your email address"
-                            className="block w-full font-light px-4 py-2 text-gray-700 placeholder-white bg-white/30 backdrop-blur-md border border-gray-200 rounded-lg dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                            className="block w-full font-light px-4 py-2 text-gray-700 placeholder-white bg-white/30 backdrop-blur-md border border-gray-200 rounded-lg  dark:text-gray-300focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                         />
                     </div>
 
@@ -78,7 +78,7 @@ const SignUpForm = () => {
                             name="password"
                             id="password"
                             placeholder="Enter your password"
-                            className="block w-full font-light px-4 py-2 text-[#EAECF0] placeholder-white bg-white/30 backdrop-blur-md border border-gray-200 rounded-lg dark:bg-none dark:text-[#EAECF0] dark:border-gray-700 focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                            className="block w-full font-light px-4 py-2 text-[#EAECF0] placeholder-white bg-white/30 backdrop-blur-md border border-gray-200 rounded-lg dark:bg-none dark:text-[#EAECF0] focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                         />
 
                     </div>
