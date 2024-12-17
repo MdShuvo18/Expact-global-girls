@@ -9,7 +9,7 @@ const MemebersSay = () => {
     <div className="mt-16 md:mt-24">
       {/* Testimonial Label */}
       <div className="-rotate-12 mb-5 flex items-center justify-center">
-        <p className="text-center bg-[#0872BA4D] rounded-lg text-sm font-light px-4 py-2">
+        <p className="text-center bg-[#0872BA4D] rounded-lg font-light px-4 py-2">
           Testimonial
         </p>
       </div>
