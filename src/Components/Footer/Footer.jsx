@@ -9,11 +9,11 @@ const Footer = () => {
         <footer className="mt-24 bg-white">
             <main>
                 <div className="flex flex-col md:flex-row lg:flex-row justify-between gap-4 lg:gap-0">
-                    <div className="flex lg:w-1/3 flex-col">
+                    <div className="flex lg:w-1/3 flex-col gap-3">
                         <img className="w-[130px] h-[105px]" src={img} alt="" />
                         <p className="w-full">Scan a Turning Hearts Medallion to learn about and interact with those who have passed on. You can also begin documenting the legacy you wish to leave behind.</p>
                         <div className="space-y-4">
-                            <p>Social Media :</p>
+                            <p className="">Social Media :</p>
                             <div className="flex gap-3">
                                 <img src={twitter} alt="" />
                                 <img src={instagram} alt="" />
@@ -39,7 +39,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="mt-10 border-t border-gray-700 pt-6 text-end">
+                <div className="mt-10 border-t-2 border-gray-300 pt-6 text-end">
                     <p>&copy; {new Date().getFullYear()} Ash and Fire. All Rights Reserved.</p>
                 </div>
             </main>
