@@ -27,7 +27,7 @@ A web application designed to empower and connect girls globally through various
 
 You can view the live version of the project here:
 
-🔗 [**Live Demo**]([https://your-deployment-link.com](https://expact-global-girls-p7jv.vercel.app/))
+🔗 [**Live Demo**](https://expact-global-girls-p7jv.vercel.app/)
 
 ---
 
@@ -83,5 +83,4 @@ npm run build
 ```
 
 ---
-
 
